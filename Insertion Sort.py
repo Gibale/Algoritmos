@@ -11,7 +11,6 @@ def insertion_sort(A):
             A[i + 1] = A[i]
             i = i - 1
         A[i + 1] = key
-        fin = time.time()
     return A
 
 
