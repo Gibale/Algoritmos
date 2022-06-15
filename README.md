@@ -22,10 +22,10 @@ Dentro del for, mientras "i" sea mayor o igual a 0 y key sea menor a algún núm
 Luego algún valor dentro de A + 1 será igual a key y se irá retornando A
 Al final del código se define el valor de n y luego se ponen en una lista "A" para que se pueda iterar entre cada uno de los valores, para hallar el tiempo total que toma el algoritmo para ejecutarse, se resta el tiempo inicial menos el tiempo final.
 
-return A
+_return A
 
 
-n = 10000
+_n = 10000
 A = list(range(n))
 random.shuffle(A)
 inicio = time.time()
